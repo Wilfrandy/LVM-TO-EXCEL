@@ -11,7 +11,7 @@ the implementation, parsing logic, fiscal terminology, Excel formatting, and ite
 
 ## Overview
 
-Point-of-sale systems running Aclas firmware export transaction data as pipe-delimited `.txt` files (LVM format). This script reads those files, extracts all relevant fiscal data, and produces a structured `.xlsx` report ready for accounting or auditing use — no manual formatting required.
+Point-of-sale systems running Aclas firmware export transaction data as pipe-delimited `.txt` files (LVM format). This script reads those files, extracts all relevant fiscal data, and produces a structured `.xlsx` report ready for accounting or auditing use. No manual formatting required.
 
 Built for a retail business operating under DGII (Dirección General de Impuestos Internos) compliance requirements in the Dominican Republic.
 
