@@ -4,6 +4,11 @@ Python ETL script that parses Aclas POS transaction files (LVM pipe-delimited fo
 
 ---
 
+## Development Notes
+
+This script was developed with the assistance of Claude (Anthropic) as an AI pair programmer. The LVM format was reverse-engineered from real transaction files by the AI. The
+the implementation, parsing logic, fiscal terminology, Excel formatting, and iterative testing across multiple files was worked through collaboratively with the accountant and AI.
+
 ## Overview
 
 Point-of-sale systems running Aclas firmware export transaction data as pipe-delimited `.txt` files (LVM format). This script reads those files, extracts all relevant fiscal data, and produces a structured `.xlsx` report ready for accounting or auditing use — no manual formatting required.
